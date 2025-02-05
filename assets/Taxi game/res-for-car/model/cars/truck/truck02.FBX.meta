@@ -1,0 +1,147 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "31fe8422-936d-4f36-bd60-c757b8cb1977",
+  "files": [],
+  "subMetas": {
+    "76763": {
+      "importer": "gltf-scene",
+      "uuid": "31fe8422-936d-4f36-bd60-c757b8cb1977@76763",
+      "displayName": "",
+      "id": "76763",
+      "name": "truck02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5d0b5": {
+      "importer": "gltf-mesh",
+      "uuid": "31fe8422-936d-4f36-bd60-c757b8cb1977@5d0b5",
+      "displayName": "",
+      "id": "5d0b5",
+      "name": "car_005_0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2402
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "47c37": {
+      "importer": "gltf-embeded-image",
+      "uuid": "31fe8422-936d-4f36-bd60-c757b8cb1977@47c37",
+      "displayName": "",
+      "id": "47c37",
+      "name": "truck02Blue.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3a1cd": {
+      "importer": "texture",
+      "uuid": "31fe8422-936d-4f36-bd60-c757b8cb1977@3a1cd",
+      "displayName": "",
+      "id": "3a1cd",
+      "name": "truck02Blue.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "957d0aba-1587-4ead-a3f2-455da9004f95"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5f218": {
+      "importer": "gltf-material",
+      "uuid": "31fe8422-936d-4f36-bd60-c757b8cb1977@5f218",
+      "displayName": "",
+      "id": "5f218",
+      "name": "truck02Blue.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "truck02Blue",
+        "remap": "957d0aba-1587-4ead-a3f2-455da9004f95",
+        "uri": "31fe8422-936d-4f36-bd60-c757b8cb1977@47c37"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "31fe8422-936d-4f36-bd60-c757b8cb1977@5d0b5"
+      ],
+      "skeletons": [],
+      "textures": [
+        "31fe8422-936d-4f36-bd60-c757b8cb1977@3a1cd"
+      ],
+      "materials": [
+        "31fe8422-936d-4f36-bd60-c757b8cb1977@5f218"
+      ],
+      "scenes": [
+        "31fe8422-936d-4f36-bd60-c757b8cb1977@76763"
+      ]
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "ver": "2.3.13",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "fb74b7b5-7fab-4f3d-b580-1dcbb0f229bf",
+  "files": [],
+  "subMetas": {
+    "54142": {
+      "importer": "gltf-mesh",
+      "uuid": "fb74b7b5-7fab-4f3d-b580-1dcbb0f229bf@54142",
+      "displayName": "",
+      "id": "54142",
+      "name": "cooking-knife-3.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 39
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6d00d": {
+      "importer": "gltf-mesh",
+      "uuid": "fb74b7b5-7fab-4f3d-b580-1dcbb0f229bf@6d00d",
+      "displayName": "",
+      "id": "6d00d",
+      "name": "knife-block-0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 40
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d92d7": {
+      "importer": "gltf-mesh",
+      "uuid": "fb74b7b5-7fab-4f3d-b580-1dcbb0f229bf@d92d7",
+      "displayName": "",
+      "id": "d92d7",
+      "name": "cooking-knife-1.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 39
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bb8af": {
+      "importer": "gltf-mesh",
+      "uuid": "fb74b7b5-7fab-4f3d-b580-1dcbb0f229bf@bb8af",
+      "displayName": "",
+      "id": "bb8af",
+      "name": "cooking-knife-2.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 39
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "96c50": {
+      "importer": "texture",
+      "uuid": "fb74b7b5-7fab-4f3d-b580-1dcbb0f229bf@96c50",
+      "displayName": "",
+      "id": "96c50",
+      "name": "colormap.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/kenney_food-kit/Models/GLB format/Textures/colormap.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9991c": {
+      "importer": "gltf-material",
+      "uuid": "fb74b7b5-7fab-4f3d-b580-1dcbb0f229bf@9991c",
+      "displayName": "",
+      "id": "9991c",
+      "name": "colormap.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d05c6": {
+      "importer": "gltf-scene",
+      "uuid": "fb74b7b5-7fab-4f3d-b580-1dcbb0f229bf@d05c6",
+      "displayName": "",
+      "id": "d05c6",
+      "name": "knife-block.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "colormap",
+        "uri": "db://assets/kenney_food-kit/Models/GLB format/Textures/colormap.png"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "fb74b7b5-7fab-4f3d-b580-1dcbb0f229bf@6d00d",
+        "fb74b7b5-7fab-4f3d-b580-1dcbb0f229bf@d92d7",
+        "fb74b7b5-7fab-4f3d-b580-1dcbb0f229bf@bb8af",
+        "fb74b7b5-7fab-4f3d-b580-1dcbb0f229bf@54142"
+      ],
+      "skeletons": [],
+      "textures": [
+        "fb74b7b5-7fab-4f3d-b580-1dcbb0f229bf@96c50"
+      ],
+      "materials": [
+        "fb74b7b5-7fab-4f3d-b580-1dcbb0f229bf@9991c"
+      ],
+      "scenes": [
+        "fb74b7b5-7fab-4f3d-b580-1dcbb0f229bf@d05c6"
+      ]
+    }
+  }
+}

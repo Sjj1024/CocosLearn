@@ -1,0 +1,218 @@
+{
+  "ver": "2.3.13",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "95337071-76e3-4f7f-8cdb-7ee595a92bc9",
+  "files": [],
+  "subMetas": {
+    "d905e": {
+      "importer": "gltf-mesh",
+      "uuid": "95337071-76e3-4f7f-8cdb-7ee595a92bc9@d905e",
+      "displayName": "",
+      "id": "d905e",
+      "name": "ship-pirate-large-0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1225
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "41eb1": {
+      "importer": "gltf-mesh",
+      "uuid": "95337071-76e3-4f7f-8cdb-7ee595a92bc9@41eb1",
+      "displayName": "",
+      "id": "41eb1",
+      "name": "sail-b-1.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 180
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9f00b": {
+      "importer": "gltf-mesh",
+      "uuid": "95337071-76e3-4f7f-8cdb-7ee595a92bc9@9f00b",
+      "displayName": "",
+      "id": "9f00b",
+      "name": "sail-a-2.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 275
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e6b5c": {
+      "importer": "gltf-mesh",
+      "uuid": "95337071-76e3-4f7f-8cdb-7ee595a92bc9@e6b5c",
+      "displayName": "",
+      "id": "e6b5c",
+      "name": "flag-c-3.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 86
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "89bd3": {
+      "importer": "gltf-mesh",
+      "uuid": "95337071-76e3-4f7f-8cdb-7ee595a92bc9@89bd3",
+      "displayName": "",
+      "id": "89bd3",
+      "name": "flag-c-4.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 86
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c70e7": {
+      "importer": "gltf-mesh",
+      "uuid": "95337071-76e3-4f7f-8cdb-7ee595a92bc9@c70e7",
+      "displayName": "",
+      "id": "c70e7",
+      "name": "flag-c-5.mesh",
+      "userData": {
+        "gltfIndex": 5,
+        "triangleCount": 86
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "96c50": {
+      "importer": "texture",
+      "uuid": "95337071-76e3-4f7f-8cdb-7ee595a92bc9@96c50",
+      "displayName": "",
+      "id": "96c50",
+      "name": "colormap.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/kenney_pirate-kit/Models/GLB format/Textures/colormap.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9991c": {
+      "importer": "gltf-material",
+      "uuid": "95337071-76e3-4f7f-8cdb-7ee595a92bc9@9991c",
+      "displayName": "",
+      "id": "9991c",
+      "name": "colormap.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "00656": {
+      "importer": "gltf-scene",
+      "uuid": "95337071-76e3-4f7f-8cdb-7ee595a92bc9@00656",
+      "displayName": "",
+      "id": "00656",
+      "name": "ship-pirate-large.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "colormap",
+        "uri": "db://assets/kenney_pirate-kit/Models/GLB format/Textures/colormap.png"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "95337071-76e3-4f7f-8cdb-7ee595a92bc9@d905e",
+        "95337071-76e3-4f7f-8cdb-7ee595a92bc9@41eb1",
+        "95337071-76e3-4f7f-8cdb-7ee595a92bc9@9f00b",
+        "95337071-76e3-4f7f-8cdb-7ee595a92bc9@e6b5c",
+        "95337071-76e3-4f7f-8cdb-7ee595a92bc9@89bd3",
+        "95337071-76e3-4f7f-8cdb-7ee595a92bc9@c70e7"
+      ],
+      "skeletons": [],
+      "textures": [
+        "95337071-76e3-4f7f-8cdb-7ee595a92bc9@96c50"
+      ],
+      "materials": [
+        "95337071-76e3-4f7f-8cdb-7ee595a92bc9@9991c"
+      ],
+      "scenes": [
+        "95337071-76e3-4f7f-8cdb-7ee595a92bc9@00656"
+      ]
+    }
+  }
+}

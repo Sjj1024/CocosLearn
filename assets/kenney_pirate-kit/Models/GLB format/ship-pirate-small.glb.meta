@@ -1,0 +1,180 @@
+{
+  "ver": "2.3.13",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "8b68b870-020e-40bf-92e0-9ffd2e9f64e9",
+  "files": [],
+  "subMetas": {
+    "6be13": {
+      "importer": "gltf-mesh",
+      "uuid": "8b68b870-020e-40bf-92e0-9ffd2e9f64e9@6be13",
+      "displayName": "",
+      "id": "6be13",
+      "name": "ship-pirate-small.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1014
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "68a20": {
+      "importer": "gltf-mesh",
+      "uuid": "8b68b870-020e-40bf-92e0-9ffd2e9f64e9@68a20",
+      "displayName": "",
+      "id": "68a20",
+      "name": "sail-a.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 275
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c6d7d": {
+      "importer": "gltf-mesh",
+      "uuid": "8b68b870-020e-40bf-92e0-9ffd2e9f64e9@c6d7d",
+      "displayName": "",
+      "id": "c6d7d",
+      "name": "flag-b.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 86
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c14a0": {
+      "importer": "gltf-mesh",
+      "uuid": "8b68b870-020e-40bf-92e0-9ffd2e9f64e9@c14a0",
+      "displayName": "",
+      "id": "c14a0",
+      "name": "flag-a.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 86
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "96c50": {
+      "importer": "texture",
+      "uuid": "8b68b870-020e-40bf-92e0-9ffd2e9f64e9@96c50",
+      "displayName": "",
+      "id": "96c50",
+      "name": "colormap.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/kenney_pirate-kit/Models/GLB format/Textures/colormap.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9991c": {
+      "importer": "gltf-material",
+      "uuid": "8b68b870-020e-40bf-92e0-9ffd2e9f64e9@9991c",
+      "displayName": "",
+      "id": "9991c",
+      "name": "colormap.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7fe36": {
+      "importer": "gltf-scene",
+      "uuid": "8b68b870-020e-40bf-92e0-9ffd2e9f64e9@7fe36",
+      "displayName": "",
+      "id": "7fe36",
+      "name": "ship-pirate-small.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "colormap",
+        "uri": "db://assets/kenney_pirate-kit/Models/GLB format/Textures/colormap.png"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "8b68b870-020e-40bf-92e0-9ffd2e9f64e9@6be13",
+        "8b68b870-020e-40bf-92e0-9ffd2e9f64e9@68a20",
+        "8b68b870-020e-40bf-92e0-9ffd2e9f64e9@c6d7d",
+        "8b68b870-020e-40bf-92e0-9ffd2e9f64e9@c14a0"
+      ],
+      "skeletons": [],
+      "textures": [
+        "8b68b870-020e-40bf-92e0-9ffd2e9f64e9@96c50"
+      ],
+      "materials": [
+        "8b68b870-020e-40bf-92e0-9ffd2e9f64e9@9991c"
+      ],
+      "scenes": [
+        "8b68b870-020e-40bf-92e0-9ffd2e9f64e9@7fe36"
+      ]
+    }
+  }
+}

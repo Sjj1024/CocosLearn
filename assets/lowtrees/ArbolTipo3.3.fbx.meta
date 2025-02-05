@@ -1,0 +1,170 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "cd7a674f-620c-45ca-bbb6-56d1b3c16ddd",
+  "files": [],
+  "subMetas": {
+    "99380": {
+      "importer": "gltf-material",
+      "uuid": "cd7a674f-620c-45ca-bbb6-56d1b3c16ddd@99380",
+      "displayName": "",
+      "id": "99380",
+      "name": "Material.001.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2efc5": {
+      "importer": "gltf-mesh",
+      "uuid": "cd7a674f-620c-45ca-bbb6-56d1b3c16ddd@2efc5",
+      "displayName": "",
+      "id": "2efc5",
+      "name": "Icosphere.002.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 80
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6b206": {
+      "importer": "gltf-mesh",
+      "uuid": "cd7a674f-620c-45ca-bbb6-56d1b3c16ddd@6b206",
+      "displayName": "",
+      "id": "6b206",
+      "name": "Icosphere.001.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 80
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1e446": {
+      "importer": "gltf-mesh",
+      "uuid": "cd7a674f-620c-45ca-bbb6-56d1b3c16ddd@1e446",
+      "displayName": "",
+      "id": "1e446",
+      "name": "Icosphere.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 80
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c6e33": {
+      "importer": "gltf-mesh",
+      "uuid": "cd7a674f-620c-45ca-bbb6-56d1b3c16ddd@c6e33",
+      "displayName": "",
+      "id": "c6e33",
+      "name": "Cube.002.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1043e": {
+      "importer": "gltf-material",
+      "uuid": "cd7a674f-620c-45ca-bbb6-56d1b3c16ddd@1043e",
+      "displayName": "",
+      "id": "1043e",
+      "name": "Material.002.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1e660": {
+      "importer": "gltf-scene",
+      "uuid": "cd7a674f-620c-45ca-bbb6-56d1b3c16ddd@1e660",
+      "displayName": "",
+      "id": "1e660",
+      "name": "ArbolTipo3.3.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "cd7a674f-620c-45ca-bbb6-56d1b3c16ddd@2efc5",
+        "cd7a674f-620c-45ca-bbb6-56d1b3c16ddd@6b206",
+        "cd7a674f-620c-45ca-bbb6-56d1b3c16ddd@1e446",
+        "cd7a674f-620c-45ca-bbb6-56d1b3c16ddd@c6e33"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "cd7a674f-620c-45ca-bbb6-56d1b3c16ddd@1043e",
+        "cd7a674f-620c-45ca-bbb6-56d1b3c16ddd@99380"
+      ],
+      "scenes": [
+        "cd7a674f-620c-45ca-bbb6-56d1b3c16ddd@1e660"
+      ]
+    }
+  }
+}

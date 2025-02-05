@@ -1,0 +1,259 @@
+{
+  "ver": "2.3.13",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "e7e552ce-7d5d-48a3-b03c-e9273d9c6622",
+  "files": [
+    "__original-animation-0.cconb",
+    "__original-animation-1.cconb",
+    "__original-animation-2.cconb"
+  ],
+  "subMetas": {
+    "aad6e": {
+      "importer": "gltf-mesh",
+      "uuid": "e7e552ce-7d5d-48a3-b03c-e9273d9c6622@aad6e",
+      "displayName": "",
+      "id": "aad6e",
+      "name": "chest.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 92
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "07938": {
+      "importer": "gltf-mesh",
+      "uuid": "e7e552ce-7d5d-48a3-b03c-e9273d9c6622@07938",
+      "displayName": "",
+      "id": "07938",
+      "name": "lid.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 140
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "de4d3": {
+      "importer": "gltf-animation",
+      "uuid": "e7e552ce-7d5d-48a3-b03c-e9273d9c6622@de4d3",
+      "displayName": "",
+      "id": "de4d3",
+      "name": "open.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.30000001192092896
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "6e9e1": {
+      "importer": "gltf-animation",
+      "uuid": "e7e552ce-7d5d-48a3-b03c-e9273d9c6622@6e9e1",
+      "displayName": "",
+      "id": "6e9e1",
+      "name": "close.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "0905c": {
+      "importer": "gltf-animation",
+      "uuid": "e7e552ce-7d5d-48a3-b03c-e9273d9c6622@0905c",
+      "displayName": "",
+      "id": "0905c",
+      "name": "open-close.animation",
+      "userData": {
+        "gltfIndex": 2,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "96c50": {
+      "importer": "texture",
+      "uuid": "e7e552ce-7d5d-48a3-b03c-e9273d9c6622@96c50",
+      "displayName": "",
+      "id": "96c50",
+      "name": "colormap.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/kenney_pirate-kit/Models/GLB format/Textures/colormap.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9991c": {
+      "importer": "gltf-material",
+      "uuid": "e7e552ce-7d5d-48a3-b03c-e9273d9c6622@9991c",
+      "displayName": "",
+      "id": "9991c",
+      "name": "colormap.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a19ff": {
+      "importer": "gltf-scene",
+      "uuid": "e7e552ce-7d5d-48a3-b03c-e9273d9c6622@a19ff",
+      "displayName": "",
+      "id": "a19ff",
+      "name": "chest.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "colormap",
+        "uri": "db://assets/kenney_pirate-kit/Models/GLB format/Textures/colormap.png"
+      }
+    ],
+    "animationImportSettings": [
+      {
+        "name": "open",
+        "duration": 0.30000001192092896,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "open",
+            "from": 0,
+            "to": 0.30000001192092896,
+            "wrapMode": 2,
+            "previousId": "de4d3"
+          }
+        ]
+      },
+      {
+        "name": "close",
+        "duration": 1,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "close",
+            "from": 0,
+            "to": 1,
+            "wrapMode": 2,
+            "previousId": "6e9e1"
+          }
+        ]
+      },
+      {
+        "name": "open-close",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "open-close",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "0905c"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "e7e552ce-7d5d-48a3-b03c-e9273d9c6622@aad6e",
+        "e7e552ce-7d5d-48a3-b03c-e9273d9c6622@07938"
+      ],
+      "skeletons": [],
+      "textures": [
+        "e7e552ce-7d5d-48a3-b03c-e9273d9c6622@96c50"
+      ],
+      "materials": [
+        "e7e552ce-7d5d-48a3-b03c-e9273d9c6622@9991c"
+      ],
+      "scenes": [
+        "e7e552ce-7d5d-48a3-b03c-e9273d9c6622@a19ff"
+      ]
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "ver": "2.3.13",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "9cc038da-8c9c-4fa7-81d4-ca4864516469",
+  "files": [],
+  "subMetas": {
+    "92409": {
+      "importer": "gltf-scene",
+      "uuid": "9cc038da-8c9c-4fa7-81d4-ca4864516469@92409",
+      "displayName": "",
+      "id": "92409",
+      "name": "coconut-half.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "992c8": {
+      "importer": "gltf-mesh",
+      "uuid": "9cc038da-8c9c-4fa7-81d4-ca4864516469@992c8",
+      "displayName": "",
+      "id": "992c8",
+      "name": "coconut-half.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 92
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "96c50": {
+      "importer": "texture",
+      "uuid": "9cc038da-8c9c-4fa7-81d4-ca4864516469@96c50",
+      "displayName": "",
+      "id": "96c50",
+      "name": "colormap.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/kenney_food-kit/Models/GLB format/Textures/colormap.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9991c": {
+      "importer": "gltf-material",
+      "uuid": "9cc038da-8c9c-4fa7-81d4-ca4864516469@9991c",
+      "displayName": "",
+      "id": "9991c",
+      "name": "colormap.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "colormap",
+        "uri": "db://assets/kenney_food-kit/Models/GLB format/Textures/colormap.png"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "9cc038da-8c9c-4fa7-81d4-ca4864516469@992c8"
+      ],
+      "skeletons": [],
+      "textures": [
+        "9cc038da-8c9c-4fa7-81d4-ca4864516469@96c50"
+      ],
+      "materials": [
+        "9cc038da-8c9c-4fa7-81d4-ca4864516469@9991c"
+      ],
+      "scenes": [
+        "9cc038da-8c9c-4fa7-81d4-ca4864516469@92409"
+      ]
+    }
+  }
+}

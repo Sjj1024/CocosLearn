@@ -1,0 +1,408 @@
+{
+  "ver": "2.3.13",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb",
+  "files": [],
+  "subMetas": {
+    "40072": {
+      "importer": "gltf-mesh",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@40072",
+      "displayName": "",
+      "id": "40072",
+      "name": "grass-5.mesh",
+      "userData": {
+        "gltfIndex": 5,
+        "triangleCount": 72
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "80235": {
+      "importer": "gltf-mesh",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@80235",
+      "displayName": "",
+      "id": "80235",
+      "name": "grass-1.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 72
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1941e": {
+      "importer": "gltf-mesh",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@1941e",
+      "displayName": "",
+      "id": "1941e",
+      "name": "ship-wreck-0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1118
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0ed33": {
+      "importer": "gltf-mesh",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@0ed33",
+      "displayName": "",
+      "id": "0ed33",
+      "name": "grass-2.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 72
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2735a": {
+      "importer": "gltf-mesh",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@2735a",
+      "displayName": "",
+      "id": "2735a",
+      "name": "grass-3.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 72
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3908e": {
+      "importer": "gltf-mesh",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@3908e",
+      "displayName": "",
+      "id": "3908e",
+      "name": "grass-4.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 72
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "512ef": {
+      "importer": "gltf-mesh",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@512ef",
+      "displayName": "",
+      "id": "512ef",
+      "name": "grass-6.mesh",
+      "userData": {
+        "gltfIndex": 6,
+        "triangleCount": 72
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9ba2b": {
+      "importer": "gltf-mesh",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@9ba2b",
+      "displayName": "",
+      "id": "9ba2b",
+      "name": "grass-7.mesh",
+      "userData": {
+        "gltfIndex": 7,
+        "triangleCount": 72
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d1cb3": {
+      "importer": "gltf-mesh",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@d1cb3",
+      "displayName": "",
+      "id": "d1cb3",
+      "name": "grass-8.mesh",
+      "userData": {
+        "gltfIndex": 8,
+        "triangleCount": 72
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f540d": {
+      "importer": "gltf-mesh",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@f540d",
+      "displayName": "",
+      "id": "f540d",
+      "name": "grass-9.mesh",
+      "userData": {
+        "gltfIndex": 9,
+        "triangleCount": 72
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9ec09": {
+      "importer": "gltf-mesh",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@9ec09",
+      "displayName": "",
+      "id": "9ec09",
+      "name": "Group-10.mesh",
+      "userData": {
+        "gltfIndex": 10,
+        "triangleCount": 36
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "45c7e": {
+      "importer": "gltf-mesh",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@45c7e",
+      "displayName": "",
+      "id": "45c7e",
+      "name": "sail-a-11.mesh",
+      "userData": {
+        "gltfIndex": 11,
+        "triangleCount": 24
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1e3dc": {
+      "importer": "gltf-mesh",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@1e3dc",
+      "displayName": "",
+      "id": "1e3dc",
+      "name": "Group-12.mesh",
+      "userData": {
+        "gltfIndex": 12,
+        "triangleCount": 84
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dc996": {
+      "importer": "gltf-mesh",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@dc996",
+      "displayName": "",
+      "id": "dc996",
+      "name": "Group-13.mesh",
+      "userData": {
+        "gltfIndex": 13,
+        "triangleCount": 84
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dc26e": {
+      "importer": "gltf-mesh",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@dc26e",
+      "displayName": "",
+      "id": "dc26e",
+      "name": "Group-14.mesh",
+      "userData": {
+        "gltfIndex": 14,
+        "triangleCount": 144
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b825f": {
+      "importer": "gltf-mesh",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@b825f",
+      "displayName": "",
+      "id": "b825f",
+      "name": "Group-15.mesh",
+      "userData": {
+        "gltfIndex": 15,
+        "triangleCount": 144
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "96c50": {
+      "importer": "texture",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@96c50",
+      "displayName": "",
+      "id": "96c50",
+      "name": "colormap.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/kenney_pirate-kit/Models/GLB format/Textures/colormap.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9991c": {
+      "importer": "gltf-material",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@9991c",
+      "displayName": "",
+      "id": "9991c",
+      "name": "colormap.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b9f6c": {
+      "importer": "gltf-scene",
+      "uuid": "8a122a4d-1001-4369-bede-0bc5c5431adb@b9f6c",
+      "displayName": "",
+      "id": "b9f6c",
+      "name": "ship-wreck.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "colormap",
+        "uri": "db://assets/kenney_pirate-kit/Models/GLB format/Textures/colormap.png"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@1941e",
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@80235",
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@0ed33",
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@2735a",
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@3908e",
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@40072",
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@512ef",
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@9ba2b",
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@d1cb3",
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@f540d",
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@9ec09",
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@45c7e",
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@1e3dc",
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@dc996",
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@dc26e",
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@b825f"
+      ],
+      "skeletons": [],
+      "textures": [
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@96c50"
+      ],
+      "materials": [
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@9991c"
+      ],
+      "scenes": [
+        "8a122a4d-1001-4369-bede-0bc5c5431adb@b9f6c"
+      ]
+    }
+  }
+}

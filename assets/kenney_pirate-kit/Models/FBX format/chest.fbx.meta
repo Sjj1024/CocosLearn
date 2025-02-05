@@ -1,0 +1,262 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "bb711972-0589-4ce3-adda-ffe5cf36f657",
+  "files": [
+    "__original-animation-0.cconb",
+    "__original-animation-1.cconb",
+    "__original-animation-2.cconb"
+  ],
+  "subMetas": {
+    "99d6c": {
+      "importer": "gltf-mesh",
+      "uuid": "bb711972-0589-4ce3-adda-ffe5cf36f657@99d6c",
+      "displayName": "",
+      "id": "99d6c",
+      "name": "Scene-0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 92
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6ec10": {
+      "importer": "gltf-mesh",
+      "uuid": "bb711972-0589-4ce3-adda-ffe5cf36f657@6ec10",
+      "displayName": "",
+      "id": "6ec10",
+      "name": "Scene-1.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 140
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "de4d3": {
+      "importer": "gltf-animation",
+      "uuid": "bb711972-0589-4ce3-adda-ffe5cf36f657@de4d3",
+      "displayName": "",
+      "id": "de4d3",
+      "name": "open.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.30000001192092896
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "6e9e1": {
+      "importer": "gltf-animation",
+      "uuid": "bb711972-0589-4ce3-adda-ffe5cf36f657@6e9e1",
+      "displayName": "",
+      "id": "6e9e1",
+      "name": "close.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "0905c": {
+      "importer": "gltf-animation",
+      "uuid": "bb711972-0589-4ce3-adda-ffe5cf36f657@0905c",
+      "displayName": "",
+      "id": "0905c",
+      "name": "open-close.animation",
+      "userData": {
+        "gltfIndex": 2,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "4f17a": {
+      "importer": "texture",
+      "uuid": "bb711972-0589-4ce3-adda-ffe5cf36f657@4f17a",
+      "displayName": "",
+      "id": "4f17a",
+      "name": "DiffuseColor_Texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/kenney_pirate-kit/Models/FBX format/Textures/colormap.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9991c": {
+      "importer": "gltf-material",
+      "uuid": "bb711972-0589-4ce3-adda-ffe5cf36f657@9991c",
+      "displayName": "",
+      "id": "9991c",
+      "name": "colormap.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a19ff": {
+      "importer": "gltf-scene",
+      "uuid": "bb711972-0589-4ce3-adda-ffe5cf36f657@a19ff",
+      "displayName": "",
+      "id": "a19ff",
+      "name": "chest.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "DiffuseColor_Texture",
+        "uri": "db://assets/kenney_pirate-kit/Models/FBX format/Textures/colormap.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "open",
+        "duration": 0.30000001192092896,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "open",
+            "from": 0,
+            "to": 0.30000001192092896,
+            "wrapMode": 2,
+            "previousId": "de4d3"
+          }
+        ]
+      },
+      {
+        "name": "close",
+        "duration": 1,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "close",
+            "from": 0,
+            "to": 1,
+            "wrapMode": 2,
+            "previousId": "6e9e1"
+          }
+        ]
+      },
+      {
+        "name": "open-close",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "open-close",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "0905c"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "bb711972-0589-4ce3-adda-ffe5cf36f657@99d6c",
+        "bb711972-0589-4ce3-adda-ffe5cf36f657@6ec10"
+      ],
+      "skeletons": [],
+      "textures": [
+        "bb711972-0589-4ce3-adda-ffe5cf36f657@4f17a"
+      ],
+      "materials": [
+        "bb711972-0589-4ce3-adda-ffe5cf36f657@9991c"
+      ],
+      "scenes": [
+        "bb711972-0589-4ce3-adda-ffe5cf36f657@a19ff"
+      ]
+    }
+  }
+}

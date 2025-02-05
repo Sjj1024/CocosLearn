@@ -1,0 +1,161 @@
+{
+  "ver": "2.3.13",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "71cc1ebb-008c-4977-ade0-05e17b6e91e5",
+  "files": [],
+  "subMetas": {
+    "75c5f": {
+      "importer": "gltf-mesh",
+      "uuid": "71cc1ebb-008c-4977-ade0-05e17b6e91e5@75c5f",
+      "displayName": "",
+      "id": "75c5f",
+      "name": "frikandel-speciaal.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 86
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "19a4b": {
+      "importer": "gltf-mesh",
+      "uuid": "71cc1ebb-008c-4977-ade0-05e17b6e91e5@19a4b",
+      "displayName": "",
+      "id": "19a4b",
+      "name": "frikandel.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 44
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a62f3": {
+      "importer": "gltf-mesh",
+      "uuid": "71cc1ebb-008c-4977-ade0-05e17b6e91e5@a62f3",
+      "displayName": "",
+      "id": "a62f3",
+      "name": "sauce-onions.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 178
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "96c50": {
+      "importer": "texture",
+      "uuid": "71cc1ebb-008c-4977-ade0-05e17b6e91e5@96c50",
+      "displayName": "",
+      "id": "96c50",
+      "name": "colormap.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/kenney_food-kit/Models/GLB format/Textures/colormap.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9991c": {
+      "importer": "gltf-material",
+      "uuid": "71cc1ebb-008c-4977-ade0-05e17b6e91e5@9991c",
+      "displayName": "",
+      "id": "9991c",
+      "name": "colormap.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4e6b0": {
+      "importer": "gltf-scene",
+      "uuid": "71cc1ebb-008c-4977-ade0-05e17b6e91e5@4e6b0",
+      "displayName": "",
+      "id": "4e6b0",
+      "name": "frikandel-speciaal.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "colormap",
+        "uri": "db://assets/kenney_food-kit/Models/GLB format/Textures/colormap.png"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "71cc1ebb-008c-4977-ade0-05e17b6e91e5@75c5f",
+        "71cc1ebb-008c-4977-ade0-05e17b6e91e5@19a4b",
+        "71cc1ebb-008c-4977-ade0-05e17b6e91e5@a62f3"
+      ],
+      "skeletons": [],
+      "textures": [
+        "71cc1ebb-008c-4977-ade0-05e17b6e91e5@96c50"
+      ],
+      "materials": [
+        "71cc1ebb-008c-4977-ade0-05e17b6e91e5@9991c"
+      ],
+      "scenes": [
+        "71cc1ebb-008c-4977-ade0-05e17b6e91e5@4e6b0"
+      ]
+    }
+  }
+}

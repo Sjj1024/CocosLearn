@@ -1,0 +1,161 @@
+{
+  "ver": "2.3.13",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "f4004933-3da9-4d39-8d3e-9db26a017b0e",
+  "files": [],
+  "subMetas": {
+    "79801": {
+      "importer": "gltf-mesh",
+      "uuid": "f4004933-3da9-4d39-8d3e-9db26a017b0e@79801",
+      "displayName": "",
+      "id": "79801",
+      "name": "chinese-0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 138
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b0064": {
+      "importer": "gltf-mesh",
+      "uuid": "f4004933-3da9-4d39-8d3e-9db26a017b0e@b0064",
+      "displayName": "",
+      "id": "b0064",
+      "name": "chopstick-1.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "09ae5": {
+      "importer": "gltf-mesh",
+      "uuid": "f4004933-3da9-4d39-8d3e-9db26a017b0e@09ae5",
+      "displayName": "",
+      "id": "09ae5",
+      "name": "chopstick-2.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "96c50": {
+      "importer": "texture",
+      "uuid": "f4004933-3da9-4d39-8d3e-9db26a017b0e@96c50",
+      "displayName": "",
+      "id": "96c50",
+      "name": "colormap.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/kenney_food-kit/Models/GLB format/Textures/colormap.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9991c": {
+      "importer": "gltf-material",
+      "uuid": "f4004933-3da9-4d39-8d3e-9db26a017b0e@9991c",
+      "displayName": "",
+      "id": "9991c",
+      "name": "colormap.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6a6ee": {
+      "importer": "gltf-scene",
+      "uuid": "f4004933-3da9-4d39-8d3e-9db26a017b0e@6a6ee",
+      "displayName": "",
+      "id": "6a6ee",
+      "name": "chinese.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "colormap",
+        "uri": "db://assets/kenney_food-kit/Models/GLB format/Textures/colormap.png"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "f4004933-3da9-4d39-8d3e-9db26a017b0e@79801",
+        "f4004933-3da9-4d39-8d3e-9db26a017b0e@b0064",
+        "f4004933-3da9-4d39-8d3e-9db26a017b0e@09ae5"
+      ],
+      "skeletons": [],
+      "textures": [
+        "f4004933-3da9-4d39-8d3e-9db26a017b0e@96c50"
+      ],
+      "materials": [
+        "f4004933-3da9-4d39-8d3e-9db26a017b0e@9991c"
+      ],
+      "scenes": [
+        "f4004933-3da9-4d39-8d3e-9db26a017b0e@6a6ee"
+      ]
+    }
+  }
+}

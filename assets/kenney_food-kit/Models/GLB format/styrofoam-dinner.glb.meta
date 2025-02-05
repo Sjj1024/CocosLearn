@@ -1,0 +1,199 @@
+{
+  "ver": "2.3.13",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "56de8e63-fffa-45e3-8aea-babf6de38353",
+  "files": [],
+  "subMetas": {
+    "19688": {
+      "importer": "gltf-mesh",
+      "uuid": "56de8e63-fffa-45e3-8aea-babf6de38353@19688",
+      "displayName": "",
+      "id": "19688",
+      "name": "Group-1.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 13
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "56593": {
+      "importer": "gltf-mesh",
+      "uuid": "56de8e63-fffa-45e3-8aea-babf6de38353@56593",
+      "displayName": "",
+      "id": "56593",
+      "name": "lid-4.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 60
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6ba0b": {
+      "importer": "gltf-mesh",
+      "uuid": "56de8e63-fffa-45e3-8aea-babf6de38353@6ba0b",
+      "displayName": "",
+      "id": "6ba0b",
+      "name": "styrofoam-dinner-0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 138
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fee45": {
+      "importer": "gltf-mesh",
+      "uuid": "56de8e63-fffa-45e3-8aea-babf6de38353@fee45",
+      "displayName": "",
+      "id": "fee45",
+      "name": "Group-2.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 16
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e29f6": {
+      "importer": "gltf-mesh",
+      "uuid": "56de8e63-fffa-45e3-8aea-babf6de38353@e29f6",
+      "displayName": "",
+      "id": "e29f6",
+      "name": "Group-3.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 13
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "96c50": {
+      "importer": "texture",
+      "uuid": "56de8e63-fffa-45e3-8aea-babf6de38353@96c50",
+      "displayName": "",
+      "id": "96c50",
+      "name": "colormap.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/kenney_food-kit/Models/GLB format/Textures/colormap.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9991c": {
+      "importer": "gltf-material",
+      "uuid": "56de8e63-fffa-45e3-8aea-babf6de38353@9991c",
+      "displayName": "",
+      "id": "9991c",
+      "name": "colormap.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5f645": {
+      "importer": "gltf-scene",
+      "uuid": "56de8e63-fffa-45e3-8aea-babf6de38353@5f645",
+      "displayName": "",
+      "id": "5f645",
+      "name": "styrofoam-dinner.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "colormap",
+        "uri": "db://assets/kenney_food-kit/Models/GLB format/Textures/colormap.png"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "56de8e63-fffa-45e3-8aea-babf6de38353@6ba0b",
+        "56de8e63-fffa-45e3-8aea-babf6de38353@19688",
+        "56de8e63-fffa-45e3-8aea-babf6de38353@fee45",
+        "56de8e63-fffa-45e3-8aea-babf6de38353@e29f6",
+        "56de8e63-fffa-45e3-8aea-babf6de38353@56593"
+      ],
+      "skeletons": [],
+      "textures": [
+        "56de8e63-fffa-45e3-8aea-babf6de38353@96c50"
+      ],
+      "materials": [
+        "56de8e63-fffa-45e3-8aea-babf6de38353@9991c"
+      ],
+      "scenes": [
+        "56de8e63-fffa-45e3-8aea-babf6de38353@5f645"
+      ]
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "ver": "2.3.13",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "b973107e-459d-46d8-877b-029c7a375da5",
+  "files": [],
+  "subMetas": {
+    "f65b0": {
+      "importer": "gltf-mesh",
+      "uuid": "b973107e-459d-46d8-877b-029c7a375da5@f65b0",
+      "displayName": "",
+      "id": "f65b0",
+      "name": "platform-planks.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 48
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "96c50": {
+      "importer": "texture",
+      "uuid": "b973107e-459d-46d8-877b-029c7a375da5@96c50",
+      "displayName": "",
+      "id": "96c50",
+      "name": "colormap.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/kenney_pirate-kit/Models/GLB format/Textures/colormap.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9991c": {
+      "importer": "gltf-material",
+      "uuid": "b973107e-459d-46d8-877b-029c7a375da5@9991c",
+      "displayName": "",
+      "id": "9991c",
+      "name": "colormap.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3473d": {
+      "importer": "gltf-scene",
+      "uuid": "b973107e-459d-46d8-877b-029c7a375da5@3473d",
+      "displayName": "",
+      "id": "3473d",
+      "name": "platform-planks.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "colormap",
+        "uri": "db://assets/kenney_pirate-kit/Models/GLB format/Textures/colormap.png"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "b973107e-459d-46d8-877b-029c7a375da5@f65b0"
+      ],
+      "skeletons": [],
+      "textures": [
+        "b973107e-459d-46d8-877b-029c7a375da5@96c50"
+      ],
+      "materials": [
+        "b973107e-459d-46d8-877b-029c7a375da5@9991c"
+      ],
+      "scenes": [
+        "b973107e-459d-46d8-877b-029c7a375da5@3473d"
+      ]
+    }
+  }
+}

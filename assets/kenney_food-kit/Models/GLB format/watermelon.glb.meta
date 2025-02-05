@@ -1,0 +1,256 @@
+{
+  "ver": "2.3.13",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "e1cf01ad-6398-478a-ac1c-27f072395b37",
+  "files": [],
+  "subMetas": {
+    "82063": {
+      "importer": "gltf-mesh",
+      "uuid": "e1cf01ad-6398-478a-ac1c-27f072395b37@82063",
+      "displayName": "",
+      "id": "82063",
+      "name": "slice-1.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 172
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "98906": {
+      "importer": "gltf-mesh",
+      "uuid": "e1cf01ad-6398-478a-ac1c-27f072395b37@98906",
+      "displayName": "",
+      "id": "98906",
+      "name": "slice-0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 172
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1bb3f": {
+      "importer": "gltf-mesh",
+      "uuid": "e1cf01ad-6398-478a-ac1c-27f072395b37@1bb3f",
+      "displayName": "",
+      "id": "1bb3f",
+      "name": "slice-2.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 172
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "eeab7": {
+      "importer": "gltf-mesh",
+      "uuid": "e1cf01ad-6398-478a-ac1c-27f072395b37@eeab7",
+      "displayName": "",
+      "id": "eeab7",
+      "name": "slice-3.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 172
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "494a7": {
+      "importer": "gltf-mesh",
+      "uuid": "e1cf01ad-6398-478a-ac1c-27f072395b37@494a7",
+      "displayName": "",
+      "id": "494a7",
+      "name": "slice-4.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 172
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8559e": {
+      "importer": "gltf-mesh",
+      "uuid": "e1cf01ad-6398-478a-ac1c-27f072395b37@8559e",
+      "displayName": "",
+      "id": "8559e",
+      "name": "slice-5.mesh",
+      "userData": {
+        "gltfIndex": 5,
+        "triangleCount": 172
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "716e6": {
+      "importer": "gltf-mesh",
+      "uuid": "e1cf01ad-6398-478a-ac1c-27f072395b37@716e6",
+      "displayName": "",
+      "id": "716e6",
+      "name": "slice-6.mesh",
+      "userData": {
+        "gltfIndex": 6,
+        "triangleCount": 172
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8dcf9": {
+      "importer": "gltf-mesh",
+      "uuid": "e1cf01ad-6398-478a-ac1c-27f072395b37@8dcf9",
+      "displayName": "",
+      "id": "8dcf9",
+      "name": "slice-7.mesh",
+      "userData": {
+        "gltfIndex": 7,
+        "triangleCount": 172
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "96c50": {
+      "importer": "texture",
+      "uuid": "e1cf01ad-6398-478a-ac1c-27f072395b37@96c50",
+      "displayName": "",
+      "id": "96c50",
+      "name": "colormap.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/kenney_food-kit/Models/GLB format/Textures/colormap.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9991c": {
+      "importer": "gltf-material",
+      "uuid": "e1cf01ad-6398-478a-ac1c-27f072395b37@9991c",
+      "displayName": "",
+      "id": "9991c",
+      "name": "colormap.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c1587": {
+      "importer": "gltf-scene",
+      "uuid": "e1cf01ad-6398-478a-ac1c-27f072395b37@c1587",
+      "displayName": "",
+      "id": "c1587",
+      "name": "watermelon.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "colormap",
+        "uri": "db://assets/kenney_food-kit/Models/GLB format/Textures/colormap.png"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "e1cf01ad-6398-478a-ac1c-27f072395b37@98906",
+        "e1cf01ad-6398-478a-ac1c-27f072395b37@82063",
+        "e1cf01ad-6398-478a-ac1c-27f072395b37@1bb3f",
+        "e1cf01ad-6398-478a-ac1c-27f072395b37@eeab7",
+        "e1cf01ad-6398-478a-ac1c-27f072395b37@494a7",
+        "e1cf01ad-6398-478a-ac1c-27f072395b37@8559e",
+        "e1cf01ad-6398-478a-ac1c-27f072395b37@716e6",
+        "e1cf01ad-6398-478a-ac1c-27f072395b37@8dcf9"
+      ],
+      "skeletons": [],
+      "textures": [
+        "e1cf01ad-6398-478a-ac1c-27f072395b37@96c50"
+      ],
+      "materials": [
+        "e1cf01ad-6398-478a-ac1c-27f072395b37@9991c"
+      ],
+      "scenes": [
+        "e1cf01ad-6398-478a-ac1c-27f072395b37@c1587"
+      ]
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d8bdf1a1-ca02-4e69-abd7-81eb89cfd14f",
+  "files": [],
+  "subMetas": {
+    "c6160": {
+      "importer": "gltf-mesh",
+      "uuid": "d8bdf1a1-ca02-4e69-abd7-81eb89cfd14f@c6160",
+      "displayName": "",
+      "id": "c6160",
+      "name": "Cylinder001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 60
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a96a6": {
+      "importer": "texture",
+      "uuid": "d8bdf1a1-ca02-4e69-abd7-81eb89cfd14f@a96a6",
+      "displayName": "",
+      "id": "a96a6",
+      "name": "贴图 #1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Taxi game/res-for-car/model/effect/coin/coin.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9d093": {
+      "importer": "gltf-material",
+      "uuid": "d8bdf1a1-ca02-4e69-abd7-81eb89cfd14f@9d093",
+      "displayName": "",
+      "id": "9d093",
+      "name": "Material #25.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8038b": {
+      "importer": "gltf-scene",
+      "uuid": "d8bdf1a1-ca02-4e69-abd7-81eb89cfd14f@8038b",
+      "displayName": "",
+      "id": "8038b",
+      "name": "coin.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #1",
+        "uri": "db://assets/Taxi game/res-for-car/model/effect/coin/coin.jpg"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "d8bdf1a1-ca02-4e69-abd7-81eb89cfd14f@c6160"
+      ],
+      "skeletons": [],
+      "textures": [
+        "d8bdf1a1-ca02-4e69-abd7-81eb89cfd14f@a96a6"
+      ],
+      "materials": [
+        "d8bdf1a1-ca02-4e69-abd7-81eb89cfd14f@9d093"
+      ],
+      "scenes": [
+        "d8bdf1a1-ca02-4e69-abd7-81eb89cfd14f@8038b"
+      ]
+    }
+  }
+}

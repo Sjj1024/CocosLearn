@@ -1,0 +1,161 @@
+{
+  "ver": "2.3.13",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "f57c787f-87da-4600-94bc-6b28cebe2662",
+  "files": [],
+  "subMetas": {
+    "15561": {
+      "importer": "gltf-mesh",
+      "uuid": "f57c787f-87da-4600-94bc-6b28cebe2662@15561",
+      "displayName": "",
+      "id": "15561",
+      "name": "cannon-mobile-0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 436
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "19688": {
+      "importer": "gltf-mesh",
+      "uuid": "f57c787f-87da-4600-94bc-6b28cebe2662@19688",
+      "displayName": "",
+      "id": "19688",
+      "name": "Group-1.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 18
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fee45": {
+      "importer": "gltf-mesh",
+      "uuid": "f57c787f-87da-4600-94bc-6b28cebe2662@fee45",
+      "displayName": "",
+      "id": "fee45",
+      "name": "Group-2.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 18
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "96c50": {
+      "importer": "texture",
+      "uuid": "f57c787f-87da-4600-94bc-6b28cebe2662@96c50",
+      "displayName": "",
+      "id": "96c50",
+      "name": "colormap.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/kenney_pirate-kit/Models/GLB format/Textures/colormap.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9991c": {
+      "importer": "gltf-material",
+      "uuid": "f57c787f-87da-4600-94bc-6b28cebe2662@9991c",
+      "displayName": "",
+      "id": "9991c",
+      "name": "colormap.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1fa78": {
+      "importer": "gltf-scene",
+      "uuid": "f57c787f-87da-4600-94bc-6b28cebe2662@1fa78",
+      "displayName": "",
+      "id": "1fa78",
+      "name": "cannon-mobile.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "colormap",
+        "uri": "db://assets/kenney_pirate-kit/Models/GLB format/Textures/colormap.png"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "f57c787f-87da-4600-94bc-6b28cebe2662@15561",
+        "f57c787f-87da-4600-94bc-6b28cebe2662@19688",
+        "f57c787f-87da-4600-94bc-6b28cebe2662@fee45"
+      ],
+      "skeletons": [],
+      "textures": [
+        "f57c787f-87da-4600-94bc-6b28cebe2662@96c50"
+      ],
+      "materials": [
+        "f57c787f-87da-4600-94bc-6b28cebe2662@9991c"
+      ],
+      "scenes": [
+        "f57c787f-87da-4600-94bc-6b28cebe2662@1fa78"
+      ]
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "ver": "2.3.13",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "470f8163-5136-4dad-8a04-74833a8f4487",
+  "files": [],
+  "subMetas": {
+    "53442": {
+      "importer": "gltf-mesh",
+      "uuid": "470f8163-5136-4dad-8a04-74833a8f4487@53442",
+      "displayName": "",
+      "id": "53442",
+      "name": "cherry.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 60
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c6819": {
+      "importer": "gltf-mesh",
+      "uuid": "470f8163-5136-4dad-8a04-74833a8f4487@c6819",
+      "displayName": "",
+      "id": "c6819",
+      "name": "sundae.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 244
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "67fba": {
+      "importer": "gltf-mesh",
+      "uuid": "470f8163-5136-4dad-8a04-74833a8f4487@67fba",
+      "displayName": "",
+      "id": "67fba",
+      "name": "straw.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "96c50": {
+      "importer": "texture",
+      "uuid": "470f8163-5136-4dad-8a04-74833a8f4487@96c50",
+      "displayName": "",
+      "id": "96c50",
+      "name": "colormap.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/kenney_food-kit/Models/GLB format/Textures/colormap.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9991c": {
+      "importer": "gltf-material",
+      "uuid": "470f8163-5136-4dad-8a04-74833a8f4487@9991c",
+      "displayName": "",
+      "id": "9991c",
+      "name": "colormap.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "87a31": {
+      "importer": "gltf-scene",
+      "uuid": "470f8163-5136-4dad-8a04-74833a8f4487@87a31",
+      "displayName": "",
+      "id": "87a31",
+      "name": "sundae.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "colormap",
+        "uri": "db://assets/kenney_food-kit/Models/GLB format/Textures/colormap.png"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "470f8163-5136-4dad-8a04-74833a8f4487@c6819",
+        "470f8163-5136-4dad-8a04-74833a8f4487@53442",
+        "470f8163-5136-4dad-8a04-74833a8f4487@67fba"
+      ],
+      "skeletons": [],
+      "textures": [
+        "470f8163-5136-4dad-8a04-74833a8f4487@96c50"
+      ],
+      "materials": [
+        "470f8163-5136-4dad-8a04-74833a8f4487@9991c"
+      ],
+      "scenes": [
+        "470f8163-5136-4dad-8a04-74833a8f4487@87a31"
+      ]
+    }
+  }
+}

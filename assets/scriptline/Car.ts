@@ -15,7 +15,9 @@ const { ccclass, property } = _decorator
 
 @ccclass('Car')
 export class Car extends Component {
-    private currPoint = null
+    private currPoint: RoadTs = null
+    // 下一个路径点的父节点
+    // private nextPointParent: Node = null
     private pointA = new Vec3()
     private pointB = new Vec3()
     // 是否运行
@@ -23,7 +25,6 @@ export class Car extends Component {
     // 初始速度
     private speed = 0.2
     private offset = new Vec3()
-    // 临时
     private tempVec = new Vec3()
     // 弯道运动的起始点旋转角度和中心点坐标
     private wStartRotate = 0
@@ -44,17 +45,18 @@ export class Car extends Component {
     private isProp = false
     // 是否减速道具作用
     private isSlow = false
-    // 小车编号
-    private num = 0
+    // 记录小车编号
+    private carNum = 0
 
     // 设置小车的入口：entry为小车的开始坐标点节点
-    public setEntry(entry: Node, isMainCar = false, num = 0) {
+    public setEntry(entry: Node, isMainCar = false, carNum = 0) {
         console.log('car setEntry', entry)
-        this.num = num
         this.isMainCar = isMainCar
+        this.carNum = carNum
+        // 将玩家小车的位置重置为开始节点的世界坐标系
         // 五辆小车的坐标系不一样，需要调整
         const newPos = new Vec3(
-            entry.worldPosition.x + 2 * num,
+            entry.worldPosition.x + 2 * carNum,
             entry.worldPosition.y,
             entry.worldPosition.z
         )
@@ -64,14 +66,13 @@ export class Car extends Component {
         this.currPoint = entry.getComponent(RoadTs)
         // 获取当前节点的世界坐标
         this.pointA.set(newPos)
-        // 获取下一个站点的世界坐标
-        // 五辆小车的下一个路径点不一样，需要调整
-        const newNextPos = new Vec3(
-            this.currPoint.nextPoint.worldPosition.x + 2 * num,
-            this.currPoint.nextPoint.worldPosition.y,
-            this.currPoint.nextPoint.worldPosition.z
+        // 获取下一个站点的子节点中世界坐标
+        // this.nextPointParent = this.currPoint.nextPoint
+        this.pointB.set(
+            this.currPoint.nextPoint.getChildByName(`point${this.carNum}`)
+                .worldPosition
         )
-        this.pointB.set(newNextPos)
+        console.log('car setEntry', this.pointA, this.pointB)
         // 根据下一个路径点和当前路径点的位置信息，设置小车的朝向
         const z = this.pointB.z - this.pointA.z
         const x = this.pointB.x - this.pointA.x
@@ -168,7 +169,7 @@ export class Car extends Component {
             // 播放加速尾气
             this.particle = this.node.getChildByName('down')
             // 播放离子特效
-            this.particle.getComponent(ParticleSystemComponent).play()
+            // this.particle.getComponent(ParticleSystemComponent).play()
         }
     }
 
@@ -213,7 +214,7 @@ export class Car extends Component {
                     this.particle.getComponent(ParticleSystemComponent).stop()
                 }
             }
-            // 小车自己停止运动，不是道具影响
+            // 自然停止作用
             if (!this.isProp && !this.isSlow) {
                 if (this.speed > this.maxSpeed) {
                     this.speed = this.maxSpeed
@@ -233,15 +234,9 @@ export class Car extends Component {
                 // 弯道运动
                 // 计算得到需要旋转的角度
                 const offsetRotate = this.wEndPointRotate - this.wStartRotate
-                console.log('弯道运动', offsetRotate)
+                // console.log('弯道运动', offsetRotate)
                 // 将旋转角度转为正指处理
                 const currentRotate = this.conversion(this.node.eulerAngles.y)
-                // console.log(
-                //     'currentRotate',
-                //     currentRotate,
-                //     this.wStartRotate,
-                //     this.wEndPointRotate
-                // )
                 // 计算下一个点需要旋转的角度
                 // 速度快点可以弥补旋转角度的误差
                 let nextRotate =
@@ -250,13 +245,6 @@ export class Car extends Component {
                     this.speed *
                         this.wRadius *
                         (this.wEndPointRotate > this.wStartRotate ? 1 : -1)
-                // 如果下一个点的旋转值大于偏移值
-                // console.log(
-                //     '如果下一个点的旋转值大于偏移值',
-                //     nextRotate,
-                //     offsetRotate,
-                //     Math.abs(this.wEndPointRotate - currentRotate)
-                // )
                 let target = 0
                 if (Math.abs(this.wEndPointRotate - currentRotate) <= 3) {
                     nextRotate = offsetRotate
@@ -265,7 +253,7 @@ export class Car extends Component {
                     target = Math.trunc(this.wStartRotate + nextRotate)
                 }
                 // console.log('target---', this.wStartRotate, nextRotate, target)
-                // 计算旋转偏移角度
+                // 计算旋转角度
                 this.tempVec.set(0, target, 0)
                 // console.log('this.tempVec 旋转角度', this.tempVec)
                 // this.node.setRotationFromEuler(this.tempVec)
@@ -288,18 +276,19 @@ export class Car extends Component {
                     (nextRotate * Math.PI) / 180
                 )
             } else {
-                // 直线运动逻辑处理，小车朝向的方向
+                // 直线运动
                 const z = this.pointB.z - this.pointA.z
                 if (z !== 0) {
+                    // console.log('直线运动z')
                     if (z > 0) {
-                        console.log('说明是z轴正方向')
+                        // 说明是z轴正方向
                         this.node.eulerAngles = new Vec3(0, 180, 0)
                         this.offset.z += this.speed
                         if (this.offset.z > this.pointB.z) {
                             this.offset.z = this.pointB.z
                         }
                     } else {
-                        console.log('说明是z轴负方向')
+                        // 说明是z轴负方向
                         this.node.eulerAngles = new Vec3(0, 0, 0)
                         this.offset.z -= this.speed
                         if (this.offset.z < this.pointB.z) {
@@ -307,16 +296,17 @@ export class Car extends Component {
                         }
                     }
                 } else {
+                    // console.log('直线运动x')
                     const x = this.pointB.x - this.pointA.x
                     if (x > 0) {
-                        console.log('说明是x轴正方向')
+                        // 说明是x轴正方向
                         this.node.eulerAngles = new Vec3(0, 270, 0)
                         this.offset.x += this.speed
                         if (this.offset.x > this.pointB.x) {
                             this.offset.x = this.pointB.x
                         }
                     } else {
-                        console.log('说明是x轴负方向')
+                        // 说明是x轴负方向
                         this.node.eulerAngles = new Vec3(0, 90, 0)
                         this.offset.x -= this.speed
                         if (this.offset.x < this.pointB.x) {
@@ -337,7 +327,7 @@ export class Car extends Component {
     }
 
     arrival() {
-        console.log('到达某个站点了.........', this.num, this.pointB)
+        console.log('arrival....................')
         // 判断如果下个站点是弯道，就按喇叭
         this.pointA.set(this.pointB)
         // 显示金币播放动画
@@ -345,85 +335,43 @@ export class Car extends Component {
         // 到达某个站点了
         // 判断是否到达了终点
         if (this.currPoint.nextPoint) {
-            this.currPoint = this.currPoint.nextPoint.getComponent(RoadTs)
-            // 五辆小车的下一个路径点不一样，需要调整
-            // const newNextPos = new Vec3(
-            //     this.currPoint.nextPoint.worldPosition.x + 2 * this.num,
-            //     this.currPoint.nextPoint.worldPosition.y,
-            //     this.currPoint.nextPoint.worldPosition.z
-            // )
+            // 获取下一个站点的父节点
+            // this.nextPointParent = this.currPoint.nextPoint
+            // 获取下一个站点的实例脚本对象
+            this.currPoint = this.currPoint.nextPoint
+                .getChildByName(`point${this.carNum}`)
+                .getComponent(RoadTs)
             // this.pointB.set(this.currPoint.nextPoint.worldPosition)
-            // console.log(
-            //     'this.currPoint.nextPoint.moveType',
-            //     this.currPoint.moveType
-            // )
-
+            const nextPointPos = this.currPoint.nextPoint.getChildByName(
+                `point${this.carNum}`
+            ).worldPosition
+            this.pointB.set(nextPointPos)
+            console.log('到达某个站点了.........', this.pointA)
             // 判断下一个点是直线还是弯道
             if (this.currPoint.moveType === ROAD_MOVE.CURVE) {
                 // 再判断是顺时针还是逆时针
-                // this.pointB.set(this.currPoint.nextPoint.worldPosition)
                 // this.audioTs.playAudio('tooting2')
-                console.log('arrival---下一站弯道........')
+                console.log('arrival---', '弯下一站弯道')
                 if (this.currPoint.clockwise) {
-                    // 顺时针,得到旋转角度，并计算中心点
                     this.wStartRotate = this.conversion(this.node.eulerAngles.y)
                     // console.log('顺时针', this.wStartRotate)
-                    // 结束点的y轴角度
                     this.wEndPointRotate = this.wStartRotate - 90
-                    let newNextPos = new Vec3()
-                    if (
-                        this.wEndPointRotate === 270 ||
-                        this.wEndPointRotate === 90
-                    ) {
-                        console.log('改变z轴坐标')
-                        // 五辆小车的下一个路径点不一样，需要调整
-                        newNextPos = new Vec3(
-                            this.currPoint.nextPoint.worldPosition.x,
-                            this.currPoint.nextPoint.worldPosition.y,
-                            this.currPoint.nextPoint.worldPosition.z +
-                                2 * this.num
-                        )
-                    } else {
-                        console.log('改变x轴坐标')
-                        // 五辆小车的下一个路径点不一样，需要调整
-                        newNextPos = new Vec3(
-                            this.currPoint.nextPoint.worldPosition.x +
-                                2 * this.num,
-                            this.currPoint.nextPoint.worldPosition.y,
-                            this.currPoint.nextPoint.worldPosition.z
-                        )
-                    }
-                    this.pointB.set(newNextPos)
-
-                    // 找到中心点坐标（如果b点的z轴小于a点的z轴并且b点的x轴大于a点的x轴）
-                    // 或者B点的z轴大于a点的z轴 并且 b点的x轴小于a点的x轴
+                    // 判断顺时针的情况
                     if (
                         (this.pointB.z < this.pointA.z &&
                             this.pointB.x > this.pointA.x) ||
                         (this.pointB.z > this.pointA.z &&
                             this.pointB.x < this.pointA.x)
                     ) {
-                        // 中心点就取b点的x，z轴取a点的z轴
                         this.wCenterPoint.set(this.pointB.x, 0, this.pointA.z)
                     } else {
-                        // 否则，中心点就取a点的x，z轴取b点的z轴
                         this.wCenterPoint.set(this.pointA.x, 0, this.pointB.z)
                     }
                 } else {
-                    // 逆时针
                     this.wStartRotate = this.conversion(this.node.eulerAngles.y)
                     // console.log('逆时针', this.wStartRotate)
                     this.wEndPointRotate = this.wStartRotate + 90
-
-                    // 五辆小车的下一个路径点不一样，需要调整
-                    const newNextPos = new Vec3(
-                        this.currPoint.nextPoint.worldPosition.x,
-                        this.currPoint.nextPoint.worldPosition.y,
-                        this.currPoint.nextPoint.worldPosition.z + 2 * this.num
-                    )
-                    this.pointB.set(newNextPos)
-                    // 如果b点的z轴大于a点的z轴 并且 b点的x轴大于a点的x轴
-                    // 或者b点的z轴小于a点的z轴 并且 b点的x轴小于a点的x轴
+                    // 判断顺时针的情况
                     if (
                         (this.pointB.z > this.pointA.z &&
                             this.pointB.x > this.pointA.x) ||
@@ -438,65 +386,11 @@ export class Car extends Component {
                 // 计算旋转半径
                 Vec3.subtract(this.tempVec, this.pointA, this.wCenterPoint)
                 const r = this.tempVec.length()
-                console.log('旋转半径', this.num, r)
+                // console.log('旋转半径', r)
                 // 计算旋转率：1度等于多少弧度
                 this.wRadius = 360 / (2 * Math.PI * r)
             } else {
                 console.log('下一站直线运动')
-                const z =
-                    this.currPoint.nextPoint.worldPosition.z +
-                    2 * this.num -
-                    this.pointA.z
-                if (z !== 0) {
-                    if (z > 0) {
-                        console.log('下一站直线运动,说明是z轴正方向')
-                        const newNextPos = new Vec3(
-                            this.currPoint.nextPoint.worldPosition.x +
-                                2 * this.num,
-                            this.currPoint.nextPoint.worldPosition.y,
-                            this.currPoint.nextPoint.worldPosition.z
-                        )
-                        this.pointB.set(newNextPos)
-                    } else {
-                        console.log('下一站直线运动,说明是z轴负方向')
-                        const newNextPos = new Vec3(
-                            this.currPoint.nextPoint.worldPosition.x +
-                                2 * this.num,
-                            this.currPoint.nextPoint.worldPosition.y,
-                            this.currPoint.nextPoint.worldPosition.z
-                        )
-                        this.pointB.set(newNextPos)
-                    }
-                } else {
-                    const x =
-                        this.currPoint.nextPoint.worldPosition.x - this.pointA.x
-                    if (x > 0) {
-                        console.log('下一站直线运动,说明是x轴正方向')
-                        const newNextPos = new Vec3(
-                            this.currPoint.nextPoint.worldPosition.x,
-                            this.currPoint.nextPoint.worldPosition.y,
-                            this.currPoint.nextPoint.worldPosition.z +
-                                2 * this.num
-                        )
-                        this.pointB.set(newNextPos)
-                    } else {
-                        console.log('下一站直线运动,说明是x轴负方向')
-                        const newNextPos = new Vec3(
-                            this.currPoint.nextPoint.worldPosition.x,
-                            this.currPoint.nextPoint.worldPosition.y,
-                            this.currPoint.nextPoint.worldPosition.z -
-                                2 * this.num
-                        )
-                        this.pointB.set(newNextPos)
-                    }
-                }
-                // 五辆小车的下一个路径点不一样，需要调整
-                // const newNextPos = new Vec3(
-                //     this.currPoint.nextPoint.worldPosition.x + 2 * this.num,
-                //     this.currPoint.nextPoint.worldPosition.y,
-                //     this.currPoint.nextPoint.worldPosition.z
-                // )
-                // this.pointB.set(newNextPos)
             }
         } else {
             console.log('到达终点了')

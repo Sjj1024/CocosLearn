@@ -36,7 +36,7 @@ export class Game extends Component {
         // this.carManager.resetCar(this.mapManager.currentPath)
         // 开始游戏
         this.uiManager.active = false
-        // this.carManager.canMove()
+        this.carManager.canMove()
     }
 
     onLoad(): void {

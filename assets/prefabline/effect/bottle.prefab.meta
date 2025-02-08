@@ -2,12 +2,12 @@
   "ver": "1.1.50",
   "importer": "prefab",
   "imported": true,
-  "uuid": "4b5dc6de-24ab-47f7-9e83-c4715586f8ac",
+  "uuid": "3737e5f5-3248-4f25-a7b7-31d0b8d7f69c",
   "files": [
     ".json"
   ],
   "subMetas": {},
   "userData": {
-    "syncNodeName": "down"
+    "syncNodeName": "bottle"
   }
 }

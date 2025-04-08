@@ -76,7 +76,6 @@ export class Car extends Component {
         // 根据下一个路径点和当前路径点的位置信息，设置小车的朝向
         const z = this.pointB.z - this.pointA.z
         const x = this.pointB.x - this.pointA.x
-        // console.log('设置小车的朝向', z, x)
         if (z !== 0) {
             if (z < 0) {
                 this.node.eulerAngles = new Vec3()
@@ -278,6 +277,7 @@ export class Car extends Component {
             } else {
                 // 直线运动
                 const z = this.pointB.z - this.pointA.z
+                console.log('直线运动z', z, this.pointB, this.pointA)
                 if (z !== 0) {
                     // console.log('直线运动z')
                     if (z > 0) {
@@ -298,6 +298,7 @@ export class Car extends Component {
                 } else {
                     // console.log('直线运动x')
                     const x = this.pointB.x - this.pointA.x
+                    // console.log('直线运动x', x)
                     if (x > 0) {
                         // 说明是x轴正方向
                         this.node.eulerAngles = new Vec3(0, 270, 0)
@@ -327,7 +328,7 @@ export class Car extends Component {
     }
 
     arrival() {
-        console.log('arrival....................')
+        console.log('arrival....................', this.currPoint)
         // 判断如果下个站点是弯道，就按喇叭
         this.pointA.set(this.pointB)
         // 显示金币播放动画
@@ -342,55 +343,80 @@ export class Car extends Component {
                 .getChildByName(`point${this.carNum}`)
                 .getComponent(RoadTs)
             // this.pointB.set(this.currPoint.nextPoint.worldPosition)
-            const nextPointPos = this.currPoint.nextPoint.getChildByName(
-                `point${this.carNum}`
-            ).worldPosition
-            this.pointB.set(nextPointPos)
-            console.log('到达某个站点了.........', this.pointA)
-            // 判断下一个点是直线还是弯道
-            if (this.currPoint.moveType === ROAD_MOVE.CURVE) {
-                // 再判断是顺时针还是逆时针
-                // this.audioTs.playAudio('tooting2')
-                console.log('arrival---', '弯下一站弯道')
-                if (this.currPoint.clockwise) {
-                    this.wStartRotate = this.conversion(this.node.eulerAngles.y)
-                    // console.log('顺时针', this.wStartRotate)
-                    this.wEndPointRotate = this.wStartRotate - 90
-                    // 判断顺时针的情况
-                    if (
-                        (this.pointB.z < this.pointA.z &&
-                            this.pointB.x > this.pointA.x) ||
-                        (this.pointB.z > this.pointA.z &&
-                            this.pointB.x < this.pointA.x)
-                    ) {
-                        this.wCenterPoint.set(this.pointB.x, 0, this.pointA.z)
+            if (this.currPoint.nextPoint) {
+                const nextPointPos = this.currPoint.nextPoint.getChildByName(
+                    `point${this.carNum}`
+                ).worldPosition
+                this.pointB.set(nextPointPos)
+                console.log('到达某个站点了.........', this.pointA)
+                // 判断下一个点是直线还是弯道
+                if (this.currPoint.moveType === ROAD_MOVE.CURVE) {
+                    // 再判断是顺时针还是逆时针
+                    // this.audioTs.playAudio('tooting2')
+                    console.log('arrival---', '弯下一站弯道')
+                    if (this.currPoint.clockwise) {
+                        this.wStartRotate = this.conversion(
+                            this.node.eulerAngles.y
+                        )
+                        // console.log('顺时针', this.wStartRotate)
+                        this.wEndPointRotate = this.wStartRotate - 90
+                        // 判断顺时针的情况
+                        if (
+                            (this.pointB.z < this.pointA.z &&
+                                this.pointB.x > this.pointA.x) ||
+                            (this.pointB.z > this.pointA.z &&
+                                this.pointB.x < this.pointA.x)
+                        ) {
+                            this.wCenterPoint.set(
+                                this.pointB.x,
+                                0,
+                                this.pointA.z
+                            )
+                        } else {
+                            this.wCenterPoint.set(
+                                this.pointA.x,
+                                0,
+                                this.pointB.z
+                            )
+                        }
                     } else {
-                        this.wCenterPoint.set(this.pointA.x, 0, this.pointB.z)
+                        this.wStartRotate = this.conversion(
+                            this.node.eulerAngles.y
+                        )
+                        // console.log('逆时针', this.wStartRotate)
+                        this.wEndPointRotate = this.wStartRotate + 90
+                        // 判断顺时针的情况
+                        if (
+                            (this.pointB.z > this.pointA.z &&
+                                this.pointB.x > this.pointA.x) ||
+                            (this.pointB.z < this.pointA.z &&
+                                this.pointB.x < this.pointA.x)
+                        ) {
+                            this.wCenterPoint.set(
+                                this.pointB.x,
+                                0,
+                                this.pointA.z
+                            )
+                        } else {
+                            this.wCenterPoint.set(
+                                this.pointA.x,
+                                0,
+                                this.pointB.z
+                            )
+                        }
                     }
+                    // 计算旋转半径
+                    Vec3.subtract(this.tempVec, this.pointA, this.wCenterPoint)
+                    const r = this.tempVec.length()
+                    // console.log('旋转半径', r)
+                    // 计算旋转率：1度等于多少弧度
+                    this.wRadius = 360 / (2 * Math.PI * r)
                 } else {
-                    this.wStartRotate = this.conversion(this.node.eulerAngles.y)
-                    // console.log('逆时针', this.wStartRotate)
-                    this.wEndPointRotate = this.wStartRotate + 90
-                    // 判断顺时针的情况
-                    if (
-                        (this.pointB.z > this.pointA.z &&
-                            this.pointB.x > this.pointA.x) ||
-                        (this.pointB.z < this.pointA.z &&
-                            this.pointB.x < this.pointA.x)
-                    ) {
-                        this.wCenterPoint.set(this.pointB.x, 0, this.pointA.z)
-                    } else {
-                        this.wCenterPoint.set(this.pointA.x, 0, this.pointB.z)
-                    }
+                    console.log('下一站直线运动')
                 }
-                // 计算旋转半径
-                Vec3.subtract(this.tempVec, this.pointA, this.wCenterPoint)
-                const r = this.tempVec.length()
-                // console.log('旋转半径', r)
-                // 计算旋转率：1度等于多少弧度
-                this.wRadius = 360 / (2 * Math.PI * r)
             } else {
-                console.log('下一站直线运动')
+                console.log('到达终点了')
+                this.isRun = false
             }
         } else {
             console.log('到达终点了')

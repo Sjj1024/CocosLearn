@@ -1,0 +1,495 @@
+{
+  "ver": "2.3.13",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16",
+  "files": [],
+  "subMetas": {
+    "99d6c": {
+      "importer": "gltf-mesh",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@99d6c",
+      "displayName": "",
+      "id": "99d6c",
+      "name": "Scene-0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 120
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6ec10": {
+      "importer": "gltf-mesh",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@6ec10",
+      "displayName": "",
+      "id": "6ec10",
+      "name": "Scene-1.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 60
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3620d": {
+      "importer": "gltf-mesh",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@3620d",
+      "displayName": "",
+      "id": "3620d",
+      "name": "Scene-2.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 4720
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cbffa": {
+      "importer": "gltf-mesh",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@cbffa",
+      "displayName": "",
+      "id": "cbffa",
+      "name": "Scene-3.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 120
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3c0d1": {
+      "importer": "gltf-mesh",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@3c0d1",
+      "displayName": "",
+      "id": "3c0d1",
+      "name": "Scene-4.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 120
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6745b": {
+      "importer": "gltf-mesh",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@6745b",
+      "displayName": "",
+      "id": "6745b",
+      "name": "Scene-5.mesh",
+      "userData": {
+        "gltfIndex": 5,
+        "triangleCount": 470
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b832b": {
+      "importer": "gltf-mesh",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@b832b",
+      "displayName": "",
+      "id": "b832b",
+      "name": "Scene-6.mesh",
+      "userData": {
+        "gltfIndex": 6,
+        "triangleCount": 470
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f2dff": {
+      "importer": "gltf-mesh",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@f2dff",
+      "displayName": "",
+      "id": "f2dff",
+      "name": "Scene-7.mesh",
+      "userData": {
+        "gltfIndex": 7,
+        "triangleCount": 120
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1d4eb": {
+      "importer": "gltf-mesh",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@1d4eb",
+      "displayName": "",
+      "id": "1d4eb",
+      "name": "Scene-8.mesh",
+      "userData": {
+        "gltfIndex": 8,
+        "triangleCount": 470
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c05bc": {
+      "importer": "gltf-mesh",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@c05bc",
+      "displayName": "",
+      "id": "c05bc",
+      "name": "Scene-9.mesh",
+      "userData": {
+        "gltfIndex": 9,
+        "triangleCount": 470
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9fa2a": {
+      "importer": "gltf-mesh",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@9fa2a",
+      "displayName": "",
+      "id": "9fa2a",
+      "name": "Scene-10.mesh",
+      "userData": {
+        "gltfIndex": 10,
+        "triangleCount": 120
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "014cb": {
+      "importer": "gltf-mesh",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@014cb",
+      "displayName": "",
+      "id": "014cb",
+      "name": "Scene-11.mesh",
+      "userData": {
+        "gltfIndex": 11,
+        "triangleCount": 160
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a1eb8": {
+      "importer": "gltf-mesh",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@a1eb8",
+      "displayName": "",
+      "id": "a1eb8",
+      "name": "Scene-12.mesh",
+      "userData": {
+        "gltfIndex": 12,
+        "triangleCount": 720
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b8dfd": {
+      "importer": "gltf-embeded-image",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@b8dfd",
+      "displayName": "",
+      "id": "b8dfd",
+      "name": "NormalMap_Texture.image",
+      "userData": {
+        "gltfIndex": 1,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "fb049": {
+      "importer": "gltf-embeded-image",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@fb049",
+      "displayName": "",
+      "id": "fb049",
+      "name": "NormalMap_Texture_1.image",
+      "userData": {
+        "gltfIndex": 3,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "4f17a": {
+      "importer": "texture",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@4f17a",
+      "displayName": "",
+      "id": "4f17a",
+      "name": "DiffuseColor_Texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Cartoon Kart 01/LCRG Kart 04 Tank.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2a10f": {
+      "importer": "texture",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@2a10f",
+      "displayName": "",
+      "id": "2a10f",
+      "name": "NormalMap_Texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "4cc0510c-1463-4389-892b-e7c72a0e8f16@b8dfd"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "05a41": {
+      "importer": "texture",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@05a41",
+      "displayName": "",
+      "id": "05a41",
+      "name": "DiffuseColor_Texture_1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Cartoon Kart 01/Kart G 01.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1542f": {
+      "importer": "texture",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@1542f",
+      "displayName": "",
+      "id": "1542f",
+      "name": "NormalMap_Texture_1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "4cc0510c-1463-4389-892b-e7c72a0e8f16@fb049"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d4628": {
+      "importer": "gltf-material",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@d4628",
+      "displayName": "",
+      "id": "d4628",
+      "name": "LCRG_Kart_04_Tank.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cd983": {
+      "importer": "gltf-material",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@cd983",
+      "displayName": "",
+      "id": "cd983",
+      "name": "Kart_G_01.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9b4f3": {
+      "importer": "gltf-scene",
+      "uuid": "4cc0510c-1463-4389-892b-e7c72a0e8f16@9b4f3",
+      "displayName": "",
+      "id": "9b4f3",
+      "name": "Cartoon Kart 04.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "DiffuseColor_Texture",
+        "uri": "db://assets/Cartoon Kart 01/LCRG Kart 04 Tank.png"
+      },
+      {
+        "name": "NormalMap_Texture",
+        "uri": "4cc0510c-1463-4389-892b-e7c72a0e8f16@b8dfd"
+      },
+      {
+        "name": "DiffuseColor_Texture_1",
+        "uri": "db://assets/Cartoon Kart 01/Kart G 01.png"
+      },
+      {
+        "name": "NormalMap_Texture_1",
+        "uri": "4cc0510c-1463-4389-892b-e7c72a0e8f16@fb049"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@99d6c",
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@6ec10",
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@3620d",
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@cbffa",
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@3c0d1",
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@6745b",
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@b832b",
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@f2dff",
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@1d4eb",
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@c05bc",
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@9fa2a",
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@014cb",
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@a1eb8"
+      ],
+      "skeletons": [],
+      "textures": [
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@4f17a",
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@2a10f",
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@05a41",
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@1542f"
+      ],
+      "materials": [
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@d4628",
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@cd983"
+      ],
+      "scenes": [
+        "4cc0510c-1463-4389-892b-e7c72a0e8f16@9b4f3"
+      ]
+    }
+  }
+}

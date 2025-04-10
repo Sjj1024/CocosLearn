@@ -2,6 +2,8 @@ import { _decorator, Component, Input, Node } from 'cc'
 import { MapTs } from './MapTs'
 import { CarTs } from './CarTs'
 import { AudioTs } from './AudioTs'
+import { getSelects } from './apis/gifts'
+
 const { ccclass, property } = _decorator
 
 @ccclass('Game')
@@ -39,6 +41,12 @@ export class Game extends Component {
         this.carManager.canMove()
     }
 
+    // 加载网络
+    loadNetwork() {
+        // 获取选择列表
+        getSelects()
+    }
+
     onLoad(): void {
         console.log('game on load')
         // 得到地图管理器和小车管理器
@@ -47,6 +55,7 @@ export class Game extends Component {
         // 拿到小车管理器，重置小车（根据地图管理器的开始节点位置重置）
         this.carManager.resetCar(this.mapManager.currentPath)
     }
+
     start() {
         // 绑定屏幕点几开始和结束的事件，根据事件点击开始，小车运动，触摸结束，小车停止运动
         this.node.on(Input.EventType.TOUCH_START, this.touchStart, this)
@@ -57,6 +66,8 @@ export class Game extends Component {
         this.audioTs = AudioTs.inst()
         this.audioTs.playAudio('start3')
         this.audioTs.playMusic('run1')
+        // 获取选择列表
+        this.loadNetwork()
     }
 
     touchStart() {

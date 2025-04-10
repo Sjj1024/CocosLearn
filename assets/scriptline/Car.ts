@@ -112,6 +112,24 @@ export class Car extends Component {
         EventListener.dispatch(EventName.STARTSHA, this.node)
     }
 
+    // 收到礼物打赏，就加速2秒
+    public receiveGift(gift: any) {
+        console.log('收到礼物打赏', gift)
+        this.isProp = true
+        this.maxSpeed = 0.3
+        this.particle = this.node.getChildByName('gas')
+        this.particle.getComponent(ParticleSystemComponent).play()
+        // 3秒后停止
+        setTimeout(() => {
+            this.isProp = false
+            this.maxSpeed = 0.1
+            this.particle.getComponent(ParticleSystemComponent).stop()
+            this.speed = this.maxSpeed
+            this.acceleration = 0.2
+            console.log('礼物打赏结束，停用道具')
+        }, 2000)
+    }
+
     start() {
         // const name = this.node.name
         // 这个节点是否可用
@@ -182,7 +200,7 @@ export class Car extends Component {
             this.speed += this.acceleration * deltaTime
             // 是否加速道具作用
             if (this.isProp) {
-                console.log('加速道具开始加速', this.speed, this.maxSpeed)
+                // console.log('加速道具开始加速', this.speed, this.maxSpeed)
                 // 说明小车已经达到最大的道具速速，开始减速
                 if (this.speed >= this.maxSpeed) {
                     console.log('加速到最高速度了,开始减速')
@@ -198,19 +216,19 @@ export class Car extends Component {
                     this.acceleration = 0.2
                     console.log('加速到最高速度后减速到正常速度了，停用道具')
                     // // 播放离子特效
-                    this.particle.getComponent(ParticleSystemComponent).stop()
+                    this.particle?.getComponent(ParticleSystemComponent).stop()
                 }
             }
             // 减速道具作用
             if (this.isSlow) {
-                console.log('减速道具开始减速', this.speed, this.maxSpeed)
+                // console.log('减速道具开始减速', this.speed, this.maxSpeed)
                 if (this.speed < 0.0001) {
                     console.log('小车减速道具到0了，开始恢复速度')
                     this.acceleration = 0.1
                     this.isSlow = false
                     this.speed = 0.002
-                    // // 播放离子特效
-                    this.particle.getComponent(ParticleSystemComponent).stop()
+                    // 播放离子特效
+                    this.particle?.getComponent(ParticleSystemComponent).stop()
                 }
             }
             // 自然停止作用
@@ -221,7 +239,10 @@ export class Car extends Component {
                 // 如果速度小于0.001，说明小车已经停止了
                 if (this.speed < 0.001) {
                     console.log('如果速度小于0.001，说明小车已经停止了')
-                    this.isRun = false
+                    // this.isRun = false
+                    this.speed = this.maxSpeed
+                    this.acceleration = 0.2
+                    console.log('小车停止了，停用道具')
                     EventListener.dispatch(EventName.ENDSHA)
                     // this.particle.getComponent(ParticleSystemComponent).stop()
                 }
@@ -277,7 +298,7 @@ export class Car extends Component {
             } else {
                 // 直线运动
                 const z = this.pointB.z - this.pointA.z
-                console.log('直线运动z', z, this.pointB, this.pointA)
+                // console.log('直线运动z', z, this.pointB, this.pointA)
                 if (z !== 0) {
                     // console.log('直线运动z')
                     if (z > 0) {
@@ -348,7 +369,7 @@ export class Car extends Component {
                     `point${this.carNum}`
                 ).worldPosition
                 this.pointB.set(nextPointPos)
-                console.log('到达某个站点了.........', this.pointA)
+                console.log('到达某个站点了......', this.pointA)
                 // 判断下一个点是直线还是弯道
                 if (this.currPoint.moveType === ROAD_MOVE.CURVE) {
                     // 再判断是顺时针还是逆时针

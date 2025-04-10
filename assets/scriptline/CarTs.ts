@@ -1,5 +1,6 @@
 import { _decorator, Component, Node } from 'cc'
 import { Car } from './Car'
+import wsInstance from './apis/socket'
 const { ccclass, property } = _decorator
 
 @ccclass('CarTs')
@@ -43,7 +44,18 @@ export class CarTs extends Component {
         }
     }
 
-    start() {}
+    start() {
+        // 链接websocket
+        wsInstance.on('message', (data: any) => {
+            console.log('ws消息', data)
+            // 解析几号车
+            const carNum = parseInt(data.content)
+            // 根据几号车，找到对应的小车
+            const car = this.mainCars[carNum]
+            // 收到礼物打赏
+            car.receiveGift(data)
+        })
+    }
 
     update(deltaTime: number) {}
 }

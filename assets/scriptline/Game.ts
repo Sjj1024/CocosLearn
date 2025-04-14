@@ -31,7 +31,6 @@ export class Game extends Component {
 
     // UI点击开始游戏触发的事件
     public startGame() {
-        console.log('start game')
         // 重置地图管理器
         // this.mapManager.resetMap()
         // 拿到小车管理器，重置小车（根据地图管理器的开始节点位置重置）
@@ -48,7 +47,10 @@ export class Game extends Component {
     }
 
     onLoad(): void {
-        console.log('game on load')
+        // 获取url中的查询参数
+        const urlParams = new URLSearchParams(window.location.search)
+        const token = urlParams.get('token')
+        console.log('game on load', token)
         // 得到地图管理器和小车管理器
         // 重置地图管理器
         this.mapManager.resetMap()
